@@ -61,7 +61,14 @@ footer{text-align:center;color:#9eafa1;padding:22px;font-size:.8rem}
 </aside>
 </main>
 <footer>Prototipe pembelajaran Pengantar Ekonomi Pertanian · Program Studi Agroteknologi<br>Materi bersifat edukatif; angka simulasi bukan data pasar aktual.</footer>
-<script type="module">
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"
+  }
+}
+</script>
+ <script type="module">
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
 import {OrbitControls} from 'https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/controls/OrbitControls.js';
 import {VRButton} from 'https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/webxr/VRButton.js';
